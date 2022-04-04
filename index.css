@@ -1,0 +1,107 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins',
+         sans-serif;
+ }
+
+ body {
+     min-height: 100vh;
+     text-transform: capitalize;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(45deg, #ff0 50%, #3335 50%);
+ }
+
+ .heading {
+     text-align: center;
+ }
+
+ .Box {
+     height: 450px;
+     width: 330px;
+     background: #fff;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     padding: 10px;
+     overflow-y: auto;
+
+ }
+
+ #input {
+     width: 70%;
+     height: 50px;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     background: #EAECEE;
+     padding: 0px 10px;
+     margin: 15px 0px;
+
+ }
+
+ .add_button {
+     padding: 15px 0px;
+     width: 28%;
+     display: inline-block;
+     border-radius: 5px;
+     outline: none;
+     color: #fff;
+     border: 1px solid #2ECC71;
+     background-color: #2ECC71;
+     cursor: pointer;
+ }
+
+ #input::placeholder {
+     /* color: #fff; */
+ }
+
+ .items {
+     margin-bottom: 4px;
+     background-color: #EAEDED;
+     line-height: 40px;
+     display: flex;
+     justify-content: space-between;
+     cursor: pointer;
+
+ }
+
+ .items:hover {
+     background-color: #BFC9CA;
+     /* cursor: pointer; */
+ }
+
+ .items p {
+     margin-left: 8px;
+ }
+
+ .edit i {
+     margin: 5px 8px;
+     cursor: pointer;
+ }
+
+ .delete:hover {
+     color: red;
+ }
+
+ .check {
+     color: red;
+ }
+
+ .green {
+     color: #2ECC71;
+ }
+
+ .done {
+     text-decoration: line-through;
+
+ }
+
+ .checkGreen {
+     color: #2ECC71;
+ }
+
+ .checkRed {
+     color: red;
+ }
